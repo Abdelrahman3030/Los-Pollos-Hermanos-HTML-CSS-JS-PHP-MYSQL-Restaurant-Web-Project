@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="UTF-8">
+	<title>Feedback</title>
+	<link rel="stylesheet" href="style1.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Pushster&display=swap" rel="stylesheet">
+  <link rel="icon" href="images/3.png">
+</head>
+
+<body>
+
+
+  <section class="header">
+    <nav>
+        <div id="home" class="nav-links">
+          
+            <ul>
+                <li><a href="MainPage.html">HOME</a></li>
+                <li><a href="MainPage.html#menu">MENU</a></li>
+                <li><a href="MainPage.html#about-us">ABOUT US</a></li>
+          <li><a href="Feedback.html">CONTACT US</a></li>
+            </ul>
+        </div>
+    </nav>
+   
+    
+
+<div class="wrapper">
+
+ 
+  <div class="title">
+    <img src="images/3.png">
+    <h1>Feedback</h1>
+  </div>
+  <div class="Feedback">
+    <div class="input-fields">
+      
+
+    <div class="panel-body">
+    <form action="feedback.php" method="post">
+
+
+    <div class="form-group">
+      <label for="name">Name:</label>
+      <input type="text"  class="form-control"  id="name" name="name" required/>
+    </div>
+  
+    <div class="form-group">
+      <label for="email">Email:</label>
+      <input type="text"  class="form-control"  id="email" name="email" required/>
+    </div>
+
+   <div class="form-group">
+    <label for="phone">Phone Number:</label>
+      <input type="tel"  class="form-control"  id="phone" name="phone" required/>
+
+    </div>
+    <div class="form-group">
+      <label for="feedback">Your Feedback:</label>
+      <textarea  class="from-control" id="feedback" name="feedback" required></textarea>
+    </div>
+  
+ <input type="submit" class="btn btn-primary" />
+  </div>
+</div>
+	 
+</body>
+
+</html>
